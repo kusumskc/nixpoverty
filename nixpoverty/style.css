@@ -1,0 +1,169 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    background-color: white;
+}
+.welcome{
+    text-align: center;
+    color: black;
+    
+ 
+}
+.tech{
+    text-align: center;
+    font-weight: 500px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+   
+ 
+}
+.text{font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    
+    color:black;
+    text-align: center;
+    font-weight:lighter;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+  }
+  .buttton{
+    padding: 15px;
+    border: 10px solid blue;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    padding-bottom: 50px;
+  }
+header{
+   
+   margin-top: 5px;
+    background-position: center center;
+  position: relative;
+
+}
+.img{
+    width: 150px;
+    height: 110px;
+    margin-top: 5px;
+}
+.nav{
+    float: right;
+    margin-top: -75px;
+    margin-bottom: -95px;
+
+    list-style: none;
+    display: flex;
+
+}
+.nav li{
+    display: inline-block;
+
+}
+.nav li a{
+    color:black;
+    font-weight: bolder;
+    text-decoration: none;
+    padding:5px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+   
+
+}
+.nav li a:hover{
+    background-color: rgb(191, 169, 212);
+    
+    border-radius: 15px;
+}
+
+.t{
+    text-align: center;
+    font-size: 80px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: bolder;
+}
+.i{
+    width: auto;
+}
+.t{font-size: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    color:white;
+    word-spacing: 20px;
+    font-weight:lighter;
+    padding-left: 550px;
+    padding-top: 300px;
+    background-image: url(https://wallpapercave.com/wp/wp7429253.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 300px;
+    margin-top: 5px;
+}
+.h{
+    text-align: center;
+}
+.small{
+ font-size: 20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.901);
+}
+.stay{
+    font-size: 40px;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.para{
+font-size: 25px;
+margin-left:400px;
+margin-right: 400px;
+text-align: center;
+}
+.submit-btn{
+    color: white;
+    width: 15%;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #180253 ,#528be6);
+    border-left: 30px;
+    border-right: 30px;
+    outline: none;
+    border-radius: 30px;
+}
+.copy{
+    margin-top: 5px;
+    background-color:rgb(63, 62, 62);
+}
+.insta{
+    height: 80px;
+    width: 80px;
+    padding-left: 80%;
+    padding-top: 80%;
+}
+.twitter{
+    height: 80px;
+    width: 80px;
+}
+.email{
+    height: 80px;
+    width: 80px;
+}
+.wrapper{
+    border-radius: 10px;
+    background: linear-gradient(rgb(23, 23, 23),rgb(71, 66, 66)); ;
+}
+.logo{
+    margin-left: 10px;
+}

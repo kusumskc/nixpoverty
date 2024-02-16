@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 14vh;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  width: 250px;
+  color: #fff;
+  text-decoration: none;
+  height: 10vh;
+  background: #000;
+  clip-path: polygon(0 0, 100% 0%, 85% 99%, 0% 100%);
+}
+header .logo p{
+    margin-top: 0.1vh;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+.box{
+   text-decoration: none; 
+   color: #000;
+   height: 4vh;
+   background: transparent;
+   padding: 15px 20px;
+   border-radius: 5px;
+   transition: all 0.3s ease-in-out;
+   border: 1px solid;
+   margin: 0 10px;
+}
+.box:hover{
+    border: 0;
+    box-shadow: 0 0 5px rgb(36, 40, 40), 0 0 25px rgb(55, 58, 58), 0 0 50px rgb(73, 78, 78), 0 0 100px rgb(44, 53, 53), 0 0 200px cyan;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.nav-items {
+    font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-right: 20px;
+}
+
+
+/* CSS for main section */
+.intro {
+  display: flex;
+  padding-top: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://wallpapercave.com/wp/wp7429253.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+    margin-left: 700px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intro p {
+    margin-left: 700px;
+  font-size: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+}
+
+.intro button {
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.achievements .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.achievements .work i {
+  width: fit-content;
+  font-size: 50px;
+  color: #333333;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 12px;
+}
+
+.achievements .work .work-heading {
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.achievements .work .work-text {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+    text-align: center;
+padding-left: 0px;
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+margin-right: 50px;
+}
+
+.about-me-text p {
+    text-align: center;
+    padding-left: 0px;
+  font-size: 25px;
+  color: #585858;
+  margin: 10px 0;
+}
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+    font-size: 40px;
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+    font-size: 20px;
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+.submit-btn{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 15%;
+    margin-left: 700px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 20px 10px;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right, #180253 ,#528be6);
+    border-left: 30px;
+    border-right: 30px;
+    outline: none;
+    border-radius: 30px;
+}

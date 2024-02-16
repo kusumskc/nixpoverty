@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img class="img" src="3.png">
+        </a>
+        <nav class="nav-items">
+            <a href="home.html">home</a>
+            <a href="menu.html">menu</a>
+            <a href="about.html">about-us</a>
+            <a href="contact.html">contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+      </header>
+    <div class="hero">
+        <div class="formbox">
+            <div class="button_box">
+                <div id="btn"></div>
+                <button type="button" class="button" onclick="login()">Log-In </button>
+                <button type="button" class="button" onclick="register()">Sign-Up</button>
+            </div>
+            <p class="quote">Your help is what makes the difference:)</p>
+        
+           <!-- <div class="social-icons">
+                <img src="https://i0.wp.com/blog.whitneydawnmusic.com/wp-content/uploads/2017/09/insta-logo.png?resize=744%2C744&ssl=1" height="30px" width="30px">
+                <img src="http://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png" height="30px" width="30px">
+                <img src="https://4.bp.blogspot.com/-K1IdqgDmrJU/W1tubjO-LrI/AAAAAAAABN4/kIB_xbkes2MMSxqXF7gBxuJSr4FDuufPwCLcBGAs/s1600/Google-logo-2015-G-icon.png" height="30px" width="30px">
+    
+            </div>-->
+       <form id="login" class="input">
+        <input type="text" class="a1" placeholder="user-id" required>
+        <input type="text" class="a2" placeholder="enter password" required>
+        <br>
+        <input type="checkbox" class="check-box"><span>Remember password</span>
+        <button type="submit" class="submit-btn"><a href="menu.html" style="text-decoration: none">Log-In</a></button>
+       </form>
+       <form  id="register"class="input">
+        <input type="text" class="a3" placeholder="user-id" required>
+        <input type="email" class="a4" placeholder="EMail-id" required>
+        <input type="text" class="a5" placeholder="enter password" required>
+        <br>
+        <input type="checkbox" class="check-box"><span>I Agree to the terms & conditions</span>
+        <button type="submit" class="submit-btn"  ><a href="menu.html" style="text-decoration: none">Sign-Up</a></button>
+       </form>
+    </div>
+   
+</div>
+    
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+        function register()
+        {
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+
+        }
+        function login()
+        {
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+
+        }
+    </script>
+    
+</body>
+</html>
