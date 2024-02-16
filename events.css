@@ -1,0 +1,244 @@
+.section-head {
+    font-size: 40px;
+    line-height: 70px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+  }
+  
+  .section-body {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .content-box {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: palevioletred;
+  }
+  .p{
+    background-color:cornsilk;
+    margin: 10px;
+    padding-top: 5px;
+
+  }
+  .c1{
+
+    margin: 20px;
+    display: flex;
+    background-color:white;
+    align-items: stretch;
+    justify-content:left;
+    
+    
+  }
+  .c2{
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+    margin: 20px;
+    background-color:white;
+   
+  }
+  .c11{
+    height: 300px;
+    margin: 20px;
+    width: 400px;
+    display: flexbox;
+    float: left;
+    background-color: rgb(194, 181, 181);
+  }
+.img{
+  animation-name: pic1;
+    animation-duration: 1s;
+  }
+  @keyframes pic1{
+    from{
+      width: 0px;
+    }
+    to{
+      width:500px;
+    } 
+  }
+  
+  .c22{
+    
+    height: 300px;
+    margin: 20px;
+    width: 500px;
+    display: flexbox;
+    float: right;
+    background-color: rgb(194, 181, 181);
+  }
+  .text{
+    display: flexbox;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .text{
+    font-size: 45px;
+    font-weight: bolder;
+    padding-left: 100px;
+  }
+  .text1{
+    display: flexbox;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .text1{
+    font-size: 45px;
+    font-weight: bolder;
+    padding-left: 0px;
+  }
+  .c1:hover{
+    background: #fff;
+    box-shadow:4px 4px 4px #000;
+    z-index: 4px;
+  }
+  .c2:hover{
+    background: #fff;
+    box-shadow:4px 4px 4px #000;
+    z-index: 4px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  .header .logo {
+    font-size: 25px;
+    font-family: 'Sriracha', cursive;
+    color: #000;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  .im{
+      height: 100px;
+      width: 100px;
+      margin-top: 10px;
+  }
+  .nav-items {
+      font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 20px;
+  }
+.g1{
+font-size: 25px;
+  }
+.m1{
+    text-align: end;
+    font-size: 20PX;
+    font-weight: lighter;
+  }
+  .g2{
+    font-size: 25px;
+      }
+    .m2{
+        text-align: end;
+        font-size: 20PX;
+        font-weight: lighter;
+      }
+      .g3{
+        font-size: 25px;
+          }
+        .m3{
+            text-align: end;
+            font-size: 20PX;
+            font-weight: lighter;
+          }
+          .g4{
+            font-size: 25px;
+              }
+            .m4{
+                text-align: end;
+                font-size: 20PX;
+                font-weight: lighter;
+              }
+              .g5{
+                font-size: 25px;
+                  }
+                .m5{
+                    text-align: end;
+                    font-size: 20PX;
+                    font-weight: lighter;
+                  }
+.j1{
+    padding-left:0px;
+    margin: 0px;
+}
+.up{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.up1{
+    height: 200px;
+    border-radius: 20px;
+    margin: 1%;
+    width: 800px;
+    display: flexbox;
+    float: center;
+}
+.up2{
+    height: 200px;
+    border-radius: 20px;
+    margin: 1%;
+    width: 800px;
+    display: flexbox;
+    float: center;
+}
+.up3{
+    height: 200px;
+    border-radius: 20px;
+    margin: 1%;
+    width: 800px;
+    display: flexbox;
+}
+.up4{
+    height: 200px;
+    border-radius: 20px;
+    margin: 1%;
+    width: 800px;
+    display: flexbox;
+    float: center;
+}
+.up5{
+    height: 200px;
+    border-radius: 20px;
+    margin:1%;
+    width: 800px;
+    display: flexbox;
+    float: center;
+}
+.pp{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40PX;
+}
+.ii{
+    border-radius: 15%;
+}
+.ii2{
+    border-radius: 20%;
+}
